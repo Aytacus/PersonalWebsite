@@ -54,6 +54,18 @@ html {
   color: var(--primary);
 }
 
+.navbar-logo-img {
+  width: 32px;
+  height: 32px;
+}
+
+.navbar-logo span {
+  background: linear-gradient(90deg, var(--primary) 0%, var(--primary-dark) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .navbar-links {
   display: flex;
   gap: 2.5rem;

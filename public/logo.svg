@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sun rays -->
+  <g transform="translate(256, 256)">
+    <path d="M0,-80 L0,-120" stroke="#FFD700" stroke-width="8"/>
+    <path d="M56.57,-56.57 L80,-80" stroke="#FFD700" stroke-width="8"/>
+    <path d="M80,0 L120,0" stroke="#FFD700" stroke-width="8"/>
+    <path d="M56.57,56.57 L80,80" stroke="#FFD700" stroke-width="8"/>
+    <path d="M0,80 L0,120" stroke="#FFD700" stroke-width="8"/>
+    <path d="M-56.57,56.57 L-80,80" stroke="#FFD700" stroke-width="8"/>
+    <path d="M-80,0 L-120,0" stroke="#FFD700" stroke-width="8"/>
+    <path d="M-56.57,-56.57 L-80,-80" stroke="#FFD700" stroke-width="8"/>
+  </g>
+  
+  <!-- Sun circle -->
+  <circle cx="256" cy="256" r="80" fill="#FFD700"/>
+  
+  <!-- Moon crescent -->
+  <path d="M256,176 C256,176 336,256 336,336 C336,416 256,336 256,336 C256,336 176,256 176,176 C176,96 256,176 256,176Z" fill="#2C3E50"/>
+</svg> 

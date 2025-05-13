@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="home-container" style={{ backgroundColor: colors.background, color: colors.text }}>
       {/* HERO SECTION */}
-      <section className="hero-section" id="hero">
+      <section className="hero-section" id="home">
         <div className="hero-content">
           <h1 className="hero-title">Yücel Aytaç Akgün</h1>
           <p className="hero-subtitle">Computer Engineering Student, Artificial Intelligence & Robotics Enthusiast</p>

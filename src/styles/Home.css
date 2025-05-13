@@ -1,0 +1,85 @@
+.cv-section {
+  padding: 4rem 2rem;
+}
+
+.cv-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cv-desc {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.cv-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cv-download-btn,
+.cv-view-btn {
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cv-download-btn {
+  background: var(--primary-color);
+  color: white;
+}
+
+.cv-download-btn:hover {
+  background: var(--primary-color-dark);
+  transform: translateY(-2px);
+}
+
+.cv-view-btn {
+  background: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.cv-view-btn:hover {
+  background: var(--primary-color);
+  color: white;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .cv-section {
+    padding: 3rem 1rem;
+  }
+  
+  .cv-card {
+    padding: 1.5rem;
+  }
+  
+  .cv-desc {
+    font-size: 1rem;
+  }
+  
+  .cv-buttons {
+    flex-direction: column;
+  }
+  
+  .cv-download-btn,
+  .cv-view-btn {
+    width: 100%;
+    justify-content: center;
+  }
+} 

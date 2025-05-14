@@ -42,15 +42,15 @@ const Home = () => {
             </div>
             <div className="skill-bar">
               <span>AI</span>
-              <div className="bar-bg"><div className="bar-fill" style={{width: '80%'}}></div></div>
+              <div className="bar-bg"><div className="bar-fill" style={{width: '88%'}}></div></div>
             </div>
             <div className="skill-bar">
               <span>Robotics</span>
-              <div className="bar-bg"><div className="bar-fill" style={{width: '80%'}}></div></div>
+              <div className="bar-bg"><div className="bar-fill" style={{width: '85%'}}></div></div>
             </div>
             <div className="skill-bar">
               <span>Java</span>
-              <div className="bar-bg"><div className="bar-fill" style={{width: '65%'}}></div></div>
+              <div className="bar-bg"><div className="bar-fill" style={{width: '70%'}}></div></div>
             </div>
             <div className="skill-bar">
               <span>C#</span>
@@ -58,7 +58,7 @@ const Home = () => {
             </div>
             <div className="skill-bar">
               <span>C</span>
-              <div className="bar-bg"><div className="bar-fill" style={{width: '88%'}}></div></div>
+              <div className="bar-bg"><div className="bar-fill" style={{width: '80%'}}></div></div>
             </div>
           </div>
         </div>

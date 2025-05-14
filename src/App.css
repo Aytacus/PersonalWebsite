@@ -211,7 +211,7 @@ html {
   text-align: center;
   margin-top: -100px;
   padding-bottom: 160px;
-  scroll-margin-top: 50px;
+  scroll-margin-top: -80px;
 }
 .about-card {
   background: var(--card);

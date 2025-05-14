@@ -211,6 +211,7 @@ html {
   text-align: center;
   margin-top: -100px;
   padding-bottom: 160px;
+  scroll-margin-top: 100px;
 }
 .about-card {
   background: var(--card);
@@ -233,6 +234,7 @@ html {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  padding-bottom: 2rem;
 }
 .skill-bar {
   font-weight: 600;

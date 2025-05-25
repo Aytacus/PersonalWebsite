@@ -70,13 +70,13 @@ const Home = () => {
         <div className="works-grid">
           <div className="work-card">
             <div className="work-title">Controlling SMD Mobile Robots with Groq Cloud</div>
-            <div className="work-meta">Technology • March 12, 2024 • 10 min read</div>
+            <div className="work-meta">Technology • April 9, 2025 • 10 min read</div>
             <div className="work-desc">A detailed review on controlling SMD mobile robots with the Groq Cloud...</div>
             <a href="https://acrome.net/post/controlling-smd-mobile-robots-with-groq" className="work-btn">Read More →</a>
           </div>
           <div className="work-card">
             <div className="work-title">Delta Robot and Conveyor Example</div>
-            <div className="work-meta">Technology • March 10, 2024 • 10 min read</div>
+            <div className="work-meta">Technology • November 15, 2024 • 10 min read</div>
             <div className="work-desc">An automation example with delta robots and conveyor...</div>
             <a href="https://acrome.net/post/delta-robot-and-conveyor-example-a-glimpse-into-industrial-automation" className="work-btn">Read More →</a>
           </div>

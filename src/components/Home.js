@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useTheme } from './ThemeContext';
 import { useForm, ValidationError } from '@formspree/react';
 
@@ -14,7 +14,7 @@ const Home = () => {
           <h1 className="hero-title">Yücel Aytaç Akgün</h1>
           <p className="hero-subtitle">Computer Engineering Student, Artificial Intelligence & Robotics Enthusiast</p>
           <div className="hero-buttons">
-            <a href="#blog" className="hero-btn primary">Blogs</a>
+            <a href="#projects" className="hero-btn primary">My Projects</a>
             <a href="#contact" className="hero-btn outline">Contact Me</a>
           </div>
         </div>
@@ -64,43 +64,94 @@ const Home = () => {
         </div>
       </section>
 
-      {/* BLOG/WORKS SECTION */}
-      <section id="blog" className="section works-section">
-        <h2 className="section-title">Blogs</h2>
+      {/* PROJECTS / PORTFOLIO SECTION */}
+      <section id="projects" className="section works-section">
+        <h2 className="section-title">Projects</h2>
         <div className="works-grid">
+          {/* Project 1: Diet Tracker */}
           <div className="work-card">
-            <div className="work-title">Controlling SMD Mobile Robots with Groq Cloud</div>
-            <div className="work-meta">Technology • April 9, 2025 • 10 min read</div>
-            <div className="work-desc">A detailed review on controlling SMD mobile robots with the Groq Cloud...</div>
-            <a href="https://acrome.net/post/controlling-smd-mobile-robots-with-groq" className="work-btn">Read More →</a>
+            <div className="work-title">Diet Tracker App</div>
+            <div className="work-meta">Flutter • Mobile App</div>
+            <div className="work-desc">A comprehensive diet tracking application built with Flutter, featuring BMI calculation, food details, and diet lists.</div>
+            <a href="https://github.com/Aytacus/diet_tracker_flutter" target="_blank" rel="noopener noreferrer" className="work-btn">View Code →</a>
           </div>
+
+          {/* Project 2: BTU LangChain RAG */}
           <div className="work-card">
-            <div className="work-title">Delta Robot and Conveyor Example</div>
-            <div className="work-meta">Technology • November 15, 2024 • 10 min read</div>
-            <div className="work-desc">An automation example with delta robots and conveyor...</div>
-            <a href="https://acrome.net/post/delta-robot-and-conveyor-example-a-glimpse-into-industrial-automation" className="work-btn">Read More →</a>
+            <div className="work-title">BTU LangChain RAG</div>
+            <div className="work-meta">Python • AI • RAG</div>
+            <div className="work-desc">An AI project using LangChain and RAG (Retrieval-Augmented Generation) to answer questions based on university documents.</div>
+            <a href="https://github.com/Aytacus/btu-langchain-rag" target="_blank" rel="noopener noreferrer" className="work-btn">View Code →</a>
+          </div>
+
+          {/* Project 3: Voice Assistant Music */}
+          <div className="work-card">
+            <div className="work-title">Voice Assistant Music</div>
+            <div className="work-meta">Flutter • Voice Recognition</div>
+            <div className="work-desc">A mobile application that allows users to control music playback using voice commands.</div>
+            <a href="https://github.com/Aytacus/voice_assistant_music" target="_blank" rel="noopener noreferrer" className="work-btn">View Code →</a>
+          </div>
+
+           {/* Project 4: Offline File Transfer */}
+           <div className="work-card">
+            <div className="work-title">Offline File Transfer</div>
+            <div className="work-meta">Python • Networking</div>
+            <div className="work-desc">A Python-based solution for transferring files between devices without requiring an active internet connection.</div>
+            <a href="https://github.com/Aytacus/offline_file_transfer" target="_blank" rel="noopener noreferrer" className="work-btn">View Code →</a>
+          </div>
+
+          {/* Project 5: UART VIP */}
+          <div className="work-card">
+            <div className="work-title">UART VIP</div>
+            <div className="work-meta">SystemVerilog • Verification</div>
+            <div className="work-desc">A Verification Intellectual Property (VIP) designed for validating UART communication protocols using SystemVerilog.</div>
+            <a href="https://github.com/Aytacus/uart-vip" target="_blank" rel="noopener noreferrer" className="work-btn">View Code →</a>
+          </div>
+
+          {/* Project 6: NS-3 Sumo Application */}
+          <div className="work-card">
+            <div className="work-title">NS-3 & SUMO Simulation</div>
+            <div className="work-meta">C++ • Simulation</div>
+            <div className="work-desc">A network simulation project integrating NS-3 network simulator with SUMO traffic simulator for VANET applications.</div>
+            <a href="https://github.com/Aytacus/ns-3_sumo_application" target="_blank" rel="noopener noreferrer" className="work-btn">View Code →</a>
           </div>
         </div>
       </section>
 
-      {/* CV SECTION */}
-      <section id="cv" className="section cv-section">
-        <h2 className="section-title">CV</h2>
-        <div className="cv-card">
-          <p className="cv-desc">
-            I am a Computer Engineering student with a passion for Artificial Intelligence and Robotics. 
-            You can download my detailed CV to learn more about my education, skills, and experience.
-          </p>
-          <div className="cv-buttons">
-            <a 
-              href="/cv/yucel-aytac-akgun-cv.pdf" 
-              download 
-              className="cv-download-btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Download CV (PDF)
-            </a>
+      {/* BLOG SECTION */}
+      <section id="blog" className="section works-section">
+        <h2 className="section-title">Blogs</h2>
+        <div className="works-grid">
+          {/* Blog 1: Fine-Tuning (Medium) */}
+          <div className="work-card">
+            <div className="work-title">Fine-Tuning LLM vs. RAG</div>
+            <div className="work-meta">Artificial Intelligence • Medium</div>
+            <div className="work-desc">A detailed comparison between Fine-Tuning Large Language Models and Retrieval-Augmented Generation (RAG) techniques.</div>
+            <a href="https://medium.com/@akgunyucel/fine-tuning-llm-vs-rag-91d3ed99204b" target="_blank" rel="noopener noreferrer" className="work-btn">Read More →</a>
+          </div>
+
+          {/* Blog 2: Kaggle vs Colab (Medium) */}
+          <div className="work-card">
+            <div className="work-title">Kaggle vs Google Colab: Yapay Zeka Eğitimi</div>
+            <div className="work-meta">Artificial Intelligence • Medium</div>
+            <div className="work-desc">Yapay zeka modelleri eğitmek için kullanılan iki popüler platformun karşılaştırılması.</div>
+            <a href="https://medium.com/@akgunyucel/kaggle-vs-google-colab-yapay-zeka-e%C4%9Fitimi-13b73d843526" target="_blank" rel="noopener noreferrer" className="work-btn">Read More →</a>
+          </div>
+
+          {/* Blog 3: SMD Mobile Robots (Acrome) */}
+          <div className="work-card">
+            <div className="work-title">Controlling SMD Mobile Robots with Groq Cloud</div>
+            <div className="work-meta">Technology • April 9, 2025 • 10 min read</div>
+            <div className="work-desc">A detailed review on controlling SMD mobile robots with the Groq Cloud...</div>
+            <a href="https://acrome.net/post/controlling-smd-mobile-robots-with-groq" className="work-btn" target="_blank" rel="noopener noreferrer">Read More →</a>
+          </div>
+
+          {/* Blog 4: Delta Robot (Acrome) */}
+          <div className="work-card">
+            <div className="work-title">Delta Robot and Conveyor Example</div>
+            <div className="work-meta">Technology • November 15, 2024 • 10 min read</div>
+            <div className="work-desc">An automation example with delta robots and conveyor...</div>
+            <a href="https://acrome.net/post/delta-robot-and-conveyor-example-a-glimpse-into-industrial-automation" className="work-btn" target="_blank" rel="noopener noreferrer">Read More →</a>
           </div>
         </div>
       </section>
@@ -167,4 +218,4 @@ const Home = () => {
   );
 };
 
-export default Home; 
+export default Home;

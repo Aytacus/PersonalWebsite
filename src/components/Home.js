@@ -132,9 +132,9 @@ const Home = () => {
 
           {/* Blog 2: Kaggle vs Colab (Medium) */}
           <div className="work-card">
-            <div className="work-title">Kaggle vs Google Colab: Yapay Zeka Eğitimi</div>
+            <div className="work-title">Kaggle vs Google Colab: AI Training</div>
             <div className="work-meta">Artificial Intelligence • Medium</div>
-            <div className="work-desc">Yapay zeka modelleri eğitmek için kullanılan iki popüler platformun karşılaştırılması.</div>
+            <div className="work-desc">Comparison of two popular platforms used for training artificial intelligence models.</div>
             <a href="https://medium.com/@akgunyucel/kaggle-vs-google-colab-yapay-zeka-e%C4%9Fitimi-13b73d843526" target="_blank" rel="noopener noreferrer" className="work-btn">Read More →</a>
           </div>
 

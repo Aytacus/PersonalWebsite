@@ -12,7 +12,7 @@ const Home = () => {
       <section className="hero-section" id="home">
         <div className="hero-content">
           <h1 className="hero-title">Yücel Aytaç Akgün</h1>
-          <p className="hero-subtitle">Computer Engineering Student, Artificial Intelligence & Robotics Enthusiast</p>
+          <p className="hero-subtitle">Computer Engineer, Artificial Intelligence & Robotics Enthusiast</p>
           <div className="hero-buttons">
             <a href="#projects" className="hero-btn primary">My Projects</a>
             <a href="#contact" className="hero-btn outline">Contact Me</a>
@@ -25,12 +25,17 @@ const Home = () => {
         <h2 className="section-title">About Me</h2>
         <div className="about-card">
           <p className="about-bio">
-            I am a computer engineering student specializing in artificial intelligence, robotics, Image Processing, and Computer Vision. I am passionate about technology and innovation.
+            I am a computer Engineer specializing in artificial intelligence, robotics, Image Processing, and Computer Vision. I am passionate about technology and innovation.
           </p>
           <div className="skills-bars">
             <div className="skill-bar">
               <span>React</span>
               <div className="bar-bg"><div className="bar-fill" style={{width: '50%'}}></div></div>
+            </div>
+            {/* Flutter Eklendi */}
+            <div className="skill-bar">
+              <span>Flutter</span>
+              <div className="bar-bg"><div className="bar-fill" style={{width: '85%'}}></div></div>
             </div>
             <div className="skill-bar">
               <span>JavaScript</span>

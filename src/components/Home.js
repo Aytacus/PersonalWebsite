@@ -69,11 +69,36 @@ const Home = () => {
         </div>
       </section>
 
-      {/* PROJECTS / PORTFOLIO SECTION */}
+      {}
       <section id="projects" className="section works-section">
         <h2 className="section-title">Projects</h2>
         <div className="works-grid">
-          {/* Project 1: Diet Tracker */}
+          
+          {}
+          <div className="work-card">
+            <div className="work-title">Real to Ghibli Style Transfer</div>
+            <div className="work-meta">Python • PyTorch • CycleGAN</div>
+            <div className="work-desc">A deep learning application that transforms real-world photos into Studio Ghibli-style anime art using CycleGAN architecture and ResNet generators.</div>
+            <a href="https://github.com/Aytacus/real_to_ghibli" target="_blank" rel="noopener noreferrer" className="work-btn">View Code →</a>
+          </div>
+
+          {}
+          <div className="work-card">
+            <div className="work-title">AI Voice Desktop Assistant</div>
+            <div className="work-meta">Python • Groq LLaMA • Automation</div>
+            <div className="work-desc">A voice-controlled assistant capable of launching apps, playing media via Selenium, and executing system commands using Groq's LLaMA 3.3 model.</div>
+            <a href="https://github.com/Aytacus/python-ai-desktop-assistant-withvoice" target="_blank" rel="noopener noreferrer" className="work-btn">View Code →</a>
+          </div>
+
+          {}
+          <div className="work-card">
+            <div className="work-title">Story Creator AI</div>
+            <div className="work-meta">Python • PyQt6 • BLIP + LLaMA</div>
+            <div className="work-desc">A desktop application that combines BLIP for image captioning and LLaMA 3.3 to automatically generate creative stories from user-uploaded images in real-time.</div>
+            <a href="https://github.com/Aytacus/storycreator" target="_blank" rel="noopener noreferrer" className="work-btn">View Code →</a>
+          </div>
+
+          {}
           <div className="work-card">
             <div className="work-title">Diet Tracker App</div>
             <div className="work-meta">Flutter • Mobile App</div>
@@ -81,7 +106,7 @@ const Home = () => {
             <a href="https://github.com/Aytacus/diet_tracker_flutter" target="_blank" rel="noopener noreferrer" className="work-btn">View Code →</a>
           </div>
 
-          {/* Project 2: BTU LangChain RAG */}
+          {}
           <div className="work-card">
             <div className="work-title">BTU LangChain RAG</div>
             <div className="work-meta">Python • AI • RAG</div>
@@ -89,7 +114,7 @@ const Home = () => {
             <a href="https://github.com/Aytacus/btu-langchain-rag" target="_blank" rel="noopener noreferrer" className="work-btn">View Code →</a>
           </div>
 
-          {/* Project 3: Voice Assistant Music */}
+          {}
           <div className="work-card">
             <div className="work-title">Voice Assistant Music</div>
             <div className="work-meta">Flutter • Voice Recognition</div>
@@ -97,7 +122,7 @@ const Home = () => {
             <a href="https://github.com/Aytacus/voice_assistant_music" target="_blank" rel="noopener noreferrer" className="work-btn">View Code →</a>
           </div>
 
-           {/* Project 4: Offline File Transfer */}
+           {}
            <div className="work-card">
             <div className="work-title">Offline File Transfer</div>
             <div className="work-meta">Python • Networking</div>
@@ -105,7 +130,7 @@ const Home = () => {
             <a href="https://github.com/Aytacus/offline_file_transfer" target="_blank" rel="noopener noreferrer" className="work-btn">View Code →</a>
           </div>
 
-          {/* Project 5: UART VIP */}
+          {}
           <div className="work-card">
             <div className="work-title">UART VIP</div>
             <div className="work-meta">SystemVerilog • Verification</div>
@@ -113,7 +138,7 @@ const Home = () => {
             <a href="https://github.com/Aytacus/uart-vip" target="_blank" rel="noopener noreferrer" className="work-btn">View Code →</a>
           </div>
 
-          {/* Project 6: NS-3 Sumo Application */}
+          {}
           <div className="work-card">
             <div className="work-title">NS-3 & SUMO Simulation</div>
             <div className="work-meta">C++ • Simulation</div>
@@ -123,11 +148,11 @@ const Home = () => {
         </div>
       </section>
 
-      {/* BLOG SECTION */}
+      {}
       <section id="blog" className="section works-section">
         <h2 className="section-title">Blogs</h2>
         <div className="works-grid">
-          {/* Blog 1: Fine-Tuning (Medium) */}
+          {}
           <div className="work-card">
             <div className="work-title">Fine-Tuning LLM vs. RAG</div>
             <div className="work-meta">Artificial Intelligence • Medium</div>
@@ -135,7 +160,7 @@ const Home = () => {
             <a href="https://medium.com/@akgunyucel/fine-tuning-llm-vs-rag-91d3ed99204b" target="_blank" rel="noopener noreferrer" className="work-btn">Read More →</a>
           </div>
 
-          {/* Blog 2: Kaggle vs Colab (Medium) */}
+          {}
           <div className="work-card">
             <div className="work-title">Kaggle vs Google Colab: AI Training</div>
             <div className="work-meta">Artificial Intelligence • Medium</div>
@@ -143,7 +168,23 @@ const Home = () => {
             <a href="https://medium.com/@akgunyucel/kaggle-vs-google-colab-yapay-zeka-e%C4%9Fitimi-13b73d843526" target="_blank" rel="noopener noreferrer" className="work-btn">Read More →</a>
           </div>
 
-          {/* Blog 3: SMD Mobile Robots (Acrome) */}
+          {}
+          <div className="work-card">
+            <div className="work-title">Hardware Wars: CPU vs GPU vs TPU</div>
+            <div className="work-meta">Hardware • Medium</div>
+            <div className="work-desc">A comprehensive breakdown of the critical differences between CPU, GPU, and TPU architectures and their specific use cases in AI.</div>
+            <a href="https://medium.com/@akgunyucel/hardware-wars-critical-differences-between-cpu-gpu-and-tpu-13437d9cb019" target="_blank" rel="noopener noreferrer" className="work-btn">Read More →</a>
+          </div>
+
+          {}
+          <div className="work-card">
+            <div className="work-title">Model Collapse & Hallucination</div>
+            <div className="work-meta">Artificial Intelligence • Medium</div>
+            <div className="work-desc">An in-depth look at the silent threats of AI hallucination and model collapse caused by training on synthetic data.</div>
+            <a href="https://medium.com/@akgunyucel/model-collapse-and-hallucination-the-silent-end-of-ai-0659c3f358f9" target="_blank" rel="noopener noreferrer" className="work-btn">Read More →</a>
+          </div>
+
+          {}
           <div className="work-card">
             <div className="work-title">Controlling SMD Mobile Robots with Groq Cloud</div>
             <div className="work-meta">Technology • April 9, 2025 • 10 min read</div>
@@ -151,7 +192,7 @@ const Home = () => {
             <a href="https://acrome.net/post/controlling-smd-mobile-robots-with-groq" className="work-btn" target="_blank" rel="noopener noreferrer">Read More →</a>
           </div>
 
-          {/* Blog 4: Delta Robot (Acrome) */}
+          {}
           <div className="work-card">
             <div className="work-title">Delta Robot and Conveyor Example</div>
             <div className="work-meta">Technology • November 15, 2024 • 10 min read</div>
